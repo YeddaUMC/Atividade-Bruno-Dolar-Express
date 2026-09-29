@@ -1,0 +1,12 @@
+{
+  "name": "cotacao-dolar-express",
+  "version": "1.0.0",
+  "description": "Site de cotação do dólar hospedado com Node.js e Express",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}

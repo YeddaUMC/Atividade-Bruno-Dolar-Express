@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    background: #f4f1ea;
+    color: #25313c;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.topo {
+    background: #243b53;
+    color: white;
+    border-bottom: 4px solid #d2a84a;
+}
+
+.topo p {
+    color: #d9e2ec;
+}
+
+.moeda {
+    background: #ffffff;
+    color: #243b53;
+    padding: 8px 14px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.painel {
+    max-width: 760px;
+    background: white;
+    padding: 35px;
+    border-radius: 14px;
+}
+
+.rotulo {
+    color: #6b7280;
+}
+
+.valor-principal {
+    color: #1f6f50;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.bloco {
+    background: #f7f7f5;
+    border-left: 4px solid #d2a84a;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.bloco h3 {
+    color: #243b53;
+}
+
+@media (max-width: 576px) {
+    .painel {
+        padding: 24px;
+    }
+
+    .valor-principal {
+        font-size: 2.3rem;
+    }
+}
